@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #151515;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 35px;
+}
+
+input, button {
+    padding: 13px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+}
+
+.user {
+    background: #252525;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
